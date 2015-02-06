@@ -1,0 +1,7 @@
+language: python
+python:
+  - "2.7"
+install:
+  - "pip install redis"
+  - "pip install virtualenv"
+script: nosetests --all-modules -v
