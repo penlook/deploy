@@ -4,5 +4,4 @@ python:
 install:
   - "pip install virtualenv"
   - "pip install redis"
-  - "pip install nose"
 script: nosetests --all-modules -v
